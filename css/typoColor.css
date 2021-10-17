@@ -7,38 +7,36 @@
 }
 
 /* Typography Style */
-h1,h2,h3,h4,h5,h6{
-    font-family: Graphik;
-}
 
-h1{
+.h1{
     font-size: 74px;
     line-height: 84px;
     letter-spacing: 0.2px;
 }
 
-h2{
+.h2{
     font-size: 48px;
     line-height: 55px;
     letter-spacing: 0.2px;
 }
 
-h3{
+.h3{
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0.1px;
 }
 
-h4{
+.h4{
     font-size: 28px;
     line-height: 40px;
     letter-spacing: 0.2px;
 }
 
-h5{
+.h5{
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 0.1px;
+    font-style: normal;
 }
 
 .btn{
@@ -54,9 +52,16 @@ h5{
 }
 
 .link{
+    font-style: normal;
+    font-weight: normal;
     font-size: 15px;
     line-height: 28px;
+    /* identical to box height, or 187% */
+
+    text-align: center;
     letter-spacing: 0.2px;
+
+    color: var(--lightText);
 }
 
 .mobile-menu{
@@ -70,7 +75,17 @@ h5{
 }
 
 .shadow{
-    background: #C4C4C4;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);  
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.text-light{
+    color: var(--lightText);
+}
+
+.text-center{
+    text-align: center;
+}
