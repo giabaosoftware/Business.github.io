@@ -19,7 +19,7 @@
                         <nav class="navbar">
                             <div class="row justify-between align-center">
                                 <div class="navbar-menu">
-                                    <ul class="menu-items flex">
+                                    <ul class="menu-items flex align-center">
                                         <li class="item">
                                             <a href="" class="item-link link">Home</a>
                                         </li>
@@ -35,12 +35,12 @@
                                         <li class="item">
                                             <a href="" class="item-link link">Contact</a>
                                         </li>
+                                        <li class="item">
+                                            <div class="content-logo-dark">
+                                                <img src="./img/Rectangle 4.png" alt="" class="logo">
+                                            </div>
+                                        </li>
                                     </ul>
-                                </div>
-                                <div class="navbar-center">
-                                     <div class="content-logo-dark">
-                                         <img src="./img/Rectangle 4.png" alt="" class="logo">
-                                     </div>
                                 </div>
                                 <div class="navbar-right">
                                     <div class="desktop-actions">
@@ -150,10 +150,7 @@
                 </div>
                 <div class="row justify-center">
                     <div class="video-group">
-                        <img src="./img/feture-img.png" alt="" class="feature__banner">
-                        <div class="feature__button">
-                            <img src="./img/play button.png" alt="">
-                        </div>
+                        <img src="./img/video-screen.png" alt="" class="feature__banner">
                     </div>
                 </div>
             </div>
@@ -354,11 +351,10 @@
                     <div class="row justify-center">
                         <div class="col-10">
                             <div class="pricing__option">
-                                <div class="row">
-
+                                <div class="row flex justify-between align-center">
                                     <div class="col-4">
-                                        <div class="pricing__module text-center">
-                                            <div class="module__content">
+                                        <div class="pricing__module text-center flex column justify-between">
+                                            <div class="module__content flex column align-center">
                                                 <div class="module__title">
                                                     <p class="h3 bold">FREE</p>
                                                 </div>
@@ -398,8 +394,8 @@
                                     </div>
 
                                     <div class="col-4">
-                                        <div class="pricing__module   pricing__module-v2 text-center">
-                                            <div class="module__content">
+                                        <div class="pricing__module   pricing__module-v2 text-center flex column justify-between">
+                                            <div class="module__content flex column align-center">
                                                 <div class="module__title">
                                                     <p class="h3 bold">FREE</p>
                                                 </div>
@@ -439,8 +435,8 @@
                                     </div>
 
                                     <div class="col-4">
-                                        <div class="pricing__module text-center">
-                                            <div class="module__content">
+                                        <div class="pricing__module text-center flex column justify-between">
+                                            <div class="module__content flex column align-center">
                                                 <div class="module__title">
                                                     <p class="h3 bold">FREE</p>
                                                 </div>
@@ -492,76 +488,78 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="contact__content text-center">
-                                <div class="contact__title">
                                     <p class="h2">Contact Us</p>
-                                </div>
-                                <div class="contact__description">
                                     <p class="h4">Most calendars are designed for teams. 
                                         Slate is designed for freelancers</p>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-4">
-                            <div class="contact__cta text-center shadow">
-                                <p class="h3 bold">Contact Us</p>
-                                <form action="" class="flex column">
-                                    <input type="text" name="" class="input" id="" placeholder="Your Name">
-                                    <input type="email" name="" class="input" id="" placeholder="Your Email">
-                                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                                    <button class="btn btn-primary"> <p class="h3">Send</p> </button>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-8">
+                        <div class="contact__group flex column justify-">
                             <div class="row">
                                 <div class="col-4">
-                                    <div class="contact__item flex justify-center column align-center">
-                                        <div class="contact__icon">
-                                            <img src="./img/contact-1.png" alt="" class="contact__img">
-                                        </div>
-                                        <div class="contact__content text-center">
-                                            <p class="h5">6386 Spring St undefined Anchorage, 
-                                                Georgia 12473 United States</p>
-                                        </div>
+                                    <div class="contact__cta text-center shadow flex column justify-between">
+                                        <p class="h3 bold">Contact Us</p>
+                                        <form action="" class="flex column justify-around">
+                                            <input type="text" name="" class="input" id="" placeholder="Your Name">
+                                            <input type="email" name="" class="input" id="" placeholder="Your Email">
+                                            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                                            <button class="btn btn-primary"> <p class="h3">Send</p> </button>
+                                        </form>
                                     </div>
                                 </div>
-                                <div class="col-4">
-                                    <div class="contact__item flex justify-center column align-center">
-                                        <div class="contact__icon">
-                                            <img src="./img/contact-2.png" alt="" class="contact__img">
+                                <div class="col-8">
+                                    <div class="contact__container">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="contact__item flex justify-center column align-center">
+                                                    <div class="contact__icon">
+                                                        <img src="./img/contact-1.png" alt="" class="contact__img">
+                                                    </div>
+                                                    <div class="contact__content text-center">
+                                                        <p class="h5">6386 Spring St undefined Anchorage, 
+                                                            Georgia 12473 United States</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="contact__item flex justify-center column align-center">
+                                                    <div class="contact__icon">
+                                                        <img src="./img/contact-2.png" alt="" class="contact__img">
+                                                    </div>
+                                                    <div class="contact__content">
+                                                        <p class="h5">(843) 555-0130</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="contact__item flex justify-center column align-center">
+                                                    <div class="contact__icon">
+                                                        <img src="./img/contact-3.png" alt="" class="contact__img">
+                                                    </div>
+                                                    <div class="contact__content">
+                                                        <p class="h5">willie.jennings@example.com</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="contact__content">
-                                            <p class="h5">(843) 555-0130</p>
+                                        <div class="row justify-center">
+                                            <div class="contact__location">
+                                                <img src="./img/contact-us.png" alt="">
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="contact__item flex justify-center column align-center">
-                                        <div class="contact__icon">
-                                            <img src="./img/contact-3.png" alt="" class="contact__img">
+                                        <div class="row">
+                                            <div class="social-media flex">
+                                                <div class="social-media__item">
+                                                    <img src="./img/media-1.png" alt="" class="icon">
+                                                </div>
+                                                <div class="social-media__item">
+                                                    <img src="./img/media-2.png" alt="" class="icon">
+                                                </div><div class="social-media__item">
+                                                    <img src="./img/media-3.png" alt="" class="icon">
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="contact__content">
-                                            <p class="h5">willie.jennings@example.com</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-center">
-                                <div class="contact__location">
-                                    <img src="./img/contact-us.png" alt="">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="social-media flex">
-                                    <div class="social-media__item">
-                                        <img src="./img/media-1.png" alt="" class="icon">
-                                    </div>
-                                    <div class="social-media__item">
-                                        <img src="./img/media-2.png" alt="" class="icon">
-                                    </div><div class="social-media__item">
-                                        <img src="./img/media-3.png" alt="" class="icon">
                                     </div>
                                 </div>
                             </div>
@@ -572,7 +570,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <div class="container">
             <div class="footer__container">
                 <div class="row">

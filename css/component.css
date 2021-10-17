@@ -12,11 +12,20 @@ body{
     margin-bottom: 115px;
 }
 
+.content-logo-dark{
+    margin-left: 20%;
+}
+
+.logo{
+    height: 58px;
+    width: auto;
+}
+
 .navbar{
     margin-top: 60px;
 }
 
-.item-link{
+nav .item-link{
     text-decoration: none;
     padding: 10px;
     margin: 20px;
@@ -157,9 +166,15 @@ textarea{
     padding-top: 20px;
 }
 
+.contact{
+    margin-top: 220px;
+    margin-bottom: 220px;
+}
+
 .contact__cta{
-    padding: 20px;
+    padding: 50px;
     border-radius: 20px;
+    height: 700px;
 }
 
 .contact__img{
@@ -189,15 +204,50 @@ textarea{
     position: relative;
 }
 
+.pricing__container{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.pricing__title{
+    padding: 10px;
+    margin-bottom: 7px;
+}
+
+
+.pricing__description{
+    max-width: 532px;
+    padding: 10px;
+}
+
+.pricing__option{
+    margin-top: 80px;
+}
+
+.pricing__module{
+    padding: 80px 30px;
+    height: 600px;
+    margin: 20px;
+}
+.pricing__module-v2{
+    height: 700px;
+}
+
+.module__description{
+    max-width: 148px;
+    text-align: center;
+}
+.module__feature__item{
+    padding: 15px;
+}
+
 .feature__banner{
     height: 658.3px;
+    width: auto;
 }
 
 .feature__button{
     position: absolute;
-    bottom: 50px;
-    top: 200px;
-    right: 550px;
     cursor: pointer;
 }
 
@@ -205,10 +255,65 @@ textarea{
     opacity: 0.8;
 }
 
+
 .btn-primary:hover{
     background-color: #1679d5;
 }
 
 .btn-secondary:hover{
     background-color: rgb(225, 225, 225);
+}
+
+.link{
+    text-decoration: none;
+}
+.social-media{
+    margin-top: 40px;
+}
+.contact__content{
+    max-width: 532px;
+    margin: 0 auto;
+    padding:10px;
+    margin-bottom: 60px;
+}
+
+.contact__group{
+    padding:20px;
+}
+
+.contact__container{
+    padding: 50px;
+}
+
+.contact__content{
+    padding:10px;
+}
+
+.contact__content .h2{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: var(--darkBackground);
+}
+
+footer .item-link{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.footer__container{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding: auto;
+}
+
+.footer__menu p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+form{
+    height: 100%;
 }
