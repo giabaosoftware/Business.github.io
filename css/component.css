@@ -317,3 +317,57 @@ footer .item-link{
 form{
     height: 100%;
 }
+
+.testimonials{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+
+.testimonials__title{
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+.testimonials__description{
+    max-width: 967px;
+    margin-bottom: 60px;
+}
+
+.user__profile .link{
+    color: black;
+}
+
+.testimonials__img img{
+    width: 150px;
+    margin-bottom: 60px;
+}
+
+.user img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.user{
+    margin-bottom: 60px;
+}
+
+.partner__container{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.partner__content .h2{
+    padding: 10px;
+    margin-bottom: 7px;
+}
+
+.partner__content .h4{
+    max-width: 532px;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+.partner button{
+    margin-top: 80px;
+}
