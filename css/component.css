@@ -327,7 +327,8 @@ footer .item-link{
 .footer__container{
     padding-top: 150px;
     padding-bottom: 150px;
-    padding: auto;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .footer__menu p{
@@ -403,10 +404,6 @@ form{
     padding-bottom: 10px;
     max-width: 324px;
     margin-bottom: 25px;
-}
-
-.cta__description{
-    
 }
 
 .cta__form{
