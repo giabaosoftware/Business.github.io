@@ -410,3 +410,21 @@ form{
     padding-top: 35px;
     padding-bottom: 35px;
 }
+
+.module__price .h1{
+    padding: 10px;
+}
+
+.module__title .h3{
+    padding: 10px;
+}
+
+.bi-phone{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.bi-geo-alt{
+    font-size: 30px;
+    margin-right: 5px;
+}
